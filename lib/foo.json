@@ -1,8 +1,8 @@
 {
   "repository": {
     "owner": {
-      "login": "luizfonseca"
+      "login": "sfeuga"
     }
-    ,"name": "test-repo"
+    ,"name": "github-actions-rubocop"
   }
 }

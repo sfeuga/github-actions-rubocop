@@ -1,9 +1,9 @@
-name: 'Github Rubocop Action'
-description: 'Runs rubocop on your PRs :)'
-author: 'Luiz Fonseca'
+name: 'Use Rubocop in your workflow'
+description: 'Add Rubocop linter'
+author: 'Stéphane FEUGA OSHIMA'
 branding:
-  icon: 'alert-triangle'
-  color: 'red'
+  icon: 'check-circle'
+  color: 'green'
 runs:
   using: 'docker'
   image: 'Dockerfile'
