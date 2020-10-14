@@ -1,6 +1,6 @@
 name: 'Github Rubocop Action'
 description: 'Runs rubocop on your PRs :)'
-author: 'Luiz Fonseca'
+author: 'Stéphane FEUGA OSHIMA'
 branding:
   icon: 'alert-triangle'
   color: 'red'

@@ -6,20 +6,19 @@
 
 Lint your Ruby code in parallel to your builds.
 
-
 ## How it works
 
-- Ruby 2.6.3
-- Rubocop + Rubocop Performance
-
+- Ruby 2.7.2
+- Rubocop
+- Rubocop Performance
+- Rubocop Rails
+- Rubocop Specs
 
 ![](screenshots/annotations.png)
-
 
 ## Instructions
 
 In order to use this action you will need to specify the `$GITHUB_TOKEN` alongside the check:
-
 
 ```yaml
 # Worflow example
@@ -31,10 +30,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
     - name: Rubocop checks
-        uses: luizfonseca/github-actions-rubocop@1.5.5
+        uses: sfeuga/github-actions-rubocop@1.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
